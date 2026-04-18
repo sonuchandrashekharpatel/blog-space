@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>BlogSpace</title>
+        <link href="index.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav>
+            <h1>BlogPost</h1>
+        </nav>
+        
+        <main>
+            <form id="form">
+                <div>
+                    <label for="post-title">Title:</label>
+                    <input 
+                        type="text"
+                        id="post-title"
+                        name="title"
+                        placeholder="Type here..."
+                    >
+                    <label for="post-body">Body:</label>
+                    <textarea 
+                        id="post-body"
+                        placeholder="Type something here..."
+                        type="text"
+                        name="post"
+                        ></textarea>
+                        <button>Post Blog</button>
+                </div>
+            </form>
+            <div id="blog-list"></div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
